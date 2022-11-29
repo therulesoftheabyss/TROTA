@@ -1,0 +1,134 @@
+body{
+    background-color: #1d1d1d;
+}
+table{
+    color: #48564b;
+}
+#body{
+    color: #9acba5;
+}
+.headed{
+    background-color: black;
+    text-align: center;
+}
+
+a.headed {
+    text-decoration: none;
+    color: #74c685;
+  }
+a:visited.headed {
+    text-decoration: none;
+    color: #507f5a;
+}
+a:hover.headed {
+    transition: 2s ease;
+    text-decoration: underline;
+    color: #92ffa8;
+}
+a:active.headed {
+    text-decoration: underline;
+    color: #093b21;
+}
+
+a {
+    text-decoration: none;
+    color: #2daf7d;
+  }
+a:visited {
+    text-decoration: none;
+    color: #507f67;
+}
+a:hover {
+    transition: 2s ease;
+    text-decoration: underline;
+    color: #92ffc3;
+}
+a:active {
+    text-decoration: underline;
+    color: #408f6e;
+}
+
+
+h2{
+    color: #bfffcd;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #navbar li { display: inline; }
+  #navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #000000;
+    width: 100%;
+    text-align: center;
+    background-color: #181818;
+  }
+  #navbar a {
+    color: #4e6352;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 15%;
+  }
+  #navbar a:hover {
+    background-color: #242424;
+  }
+  #navbar ul { display: none; }
+  #navbar li:hover ul { display: block; }
+
+  #bar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 20%;
+    height: 100%;
+    color: #4e6352;
+  }
+  #bar a {
+    color: #8ba690;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid rgb(26, 26, 26);
+    display: block;
+  }
+  #bar li {
+    border-left: 10px solid rgb(26, 26, 26);
+    border-bottom: 1px solid rgb(26, 26, 26);
+  }
+  table #bar{
+    background-color: #181818;
+    text-align: center;
+  }
+  #MITA1{
+    text-align: center;
+  }
+  .anim:hover{
+    transition: 2s ease;
+    color:#5cdd78;
+  }
+
+  #bar a:hover{
+    transition: 1s ease;
+    color:#82d692;
+  }
+  footer{
+    color: #9acba5;
+    background-color: rgb(26, 26, 26);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center; 
+    width: 99%;   
+    font-size: 19px;
+  }
+.foot:hover{
+    transition: 2s ease;
+    color:#8cf595;
+    font-size: 30px;
+}
