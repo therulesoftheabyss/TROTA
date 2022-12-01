@@ -218,7 +218,7 @@ div.main{
   p {
     hyphens: auto;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   
   #trota{
     display: none;
